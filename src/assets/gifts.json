@@ -1,0 +1,11 @@
+{
+    "gifts": [
+        {
+            "id": 1,
+            "name": "Jogo de Panelas",
+            "image": "/images/panelas.jpg",
+            "link": "https://...",
+            "status": "disponivel"
+        }
+    ]
+}

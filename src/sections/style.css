@@ -1,0 +1,168 @@
+.start-section,
+.day-section, .gift-section  {
+    width: 100%;
+    background-color: var(--white-color);
+    background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
+}
+
+.start-content,
+.day-content, .gift-content{
+    padding: 1rem;
+}
+
+
+.day-content, .start-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.day-content h2, .gift-content h2 {
+    font-family: Cristola Display;
+    font-weight: lighter;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.day-content text, .gift-content text {
+    font-family: Caviar Dreams;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.day-details {
+    display: flex;
+    align-items: start;
+    margin-top: 1rem;
+    gap: 5rem;
+    padding-bottom: 1.5rem;
+}
+
+.day-detail {
+display: flex;
+flex-direction: column;
+align-items: center;
+    border-radius: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.day-detail h3 {
+    font-family: Gistesy;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+
+}
+
+.day-detail h4 {
+    font-size: 1.3rem;
+    margin: 0;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+
+.day-detail .day-time {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-weight: bold;
+    padding: 7px 10px;
+    border-radius: 1rem;
+}
+
+.day-image {
+    width: 400px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.gift-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.gift-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.amazon-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: .75rem;
+    background-color: rgb(209, 209, 209);
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    margin-top: 1.2rem;
+}
+
+.amazon-button:hover {
+    transform: scale(1.05);
+}
+
+.amazon-button img {
+    width: 30px;
+    height: auto;
+}
+
+.amazon-button span {
+    font-family: Cristola Display;
+    font-size: .9rem;
+    color: rgb(53, 53, 53);
+    font-weight: 900;
+}
+
+@media screen and (max-width: 768px) {
+    .day-details {
+        align-items: center;
+        flex-direction: column;
+        gap: 0rem;
+        margin-top: 0;
+    }
+
+    .day-content {
+        padding: 1.5rem .5rem;
+    }
+
+    .day-detail {
+        padding: 1.5rem .5rem;
+        padding-bottom: 0;
+        width: 95%;
+    }
+
+    .day-content h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .day-image {
+        padding-bottom: 2rem;
+        
+    }
+
+    .day-content text {
+        padding: 0rem .5rem;
+            font-size: 1rem;
+    }
+    .gift-content text {
+    font-size: 1rem;
+    }
+
+     .day-detail h3 {
+        font-size: 2rem;
+     }
+
+     .day-detail h4 {
+        font-size: 1.1rem;
+     }
+
+}

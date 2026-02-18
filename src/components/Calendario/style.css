@@ -1,0 +1,43 @@
+.calendario {
+  padding: 16px;
+  width: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--primary-color);
+}
+
+.semana,
+.dias {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  text-align: center;
+}
+
+.dias {
+    margin-top: 12px;
+}
+
+.semana span {
+  font-weight: bold;
+}
+
+.dias .dia {
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.dias .dia:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.dias .dia.ativo {
+  background: var(--primary-color);
+  color: whitesmoke;
+}
+
+
+@media screen and (max-width: 768px) {
+}

@@ -1,0 +1,22 @@
+.map-container {
+     width: 100%;
+     height: 400px;
+     display: flex ;
+     flex-direction: column;
+     align-items: center;
+}
+
+.map-container iframe {
+    width: 60%;
+    height: 100%;
+    border: 20px solid var(--primary-color);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+ .map-container iframe {
+     width: 100%;
+    height: 100%;
+ }
+}
