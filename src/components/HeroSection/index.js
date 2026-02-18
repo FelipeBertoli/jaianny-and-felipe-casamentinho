@@ -1,7 +1,5 @@
 import './style.css'
-const HeroSection = ({
-
-}) => {
+const HeroSection = () => {
 
     return (
         <section className='hero-section'

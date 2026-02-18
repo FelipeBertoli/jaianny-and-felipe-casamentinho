@@ -1,6 +1,6 @@
 import './style.css'
 
-export function YouTubeEmbed({ }) {
+export function YouTubeEmbed() {
   return (
     <div className="video">
       <iframe
