@@ -2,7 +2,7 @@
 .day-section, .gift-section  {
     width: 100%;
     background-color: var(--white-color);
-    background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
+    background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png"); 
 }
 
 .start-content,

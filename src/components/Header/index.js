@@ -26,9 +26,9 @@ export default function Header() {
                 />
 
                 <nav className="app-nav" aria-label="Main navigation">
-                    <a className={`header-item ${scrolled ? 'scrolled' : ''}`} href="#about">Início</a>
+                    <a className={`header-item ${scrolled ? 'scrolled' : ''}`} href="#start">Início</a>
                     {/* <a className={`header-item ${scrolled ? 'scrolled' : ''}`} href="#rsvp">Cerimônia</a> */}
-                    <a className={`header-item ${scrolled ? 'scrolled' : ''}`} href="#gallery">Presentes</a>
+                    <a className={`header-item ${scrolled ? 'scrolled' : ''}`} href="#gifts">Presentes</a>
                       <a className={`header-item ${scrolled ? 'scrolled' : ''}`} href="#gallery">Galeria</a>
                 </nav>
 

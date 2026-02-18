@@ -18,7 +18,7 @@ export default function GiftSection() {
     };
 
     return (
-        <section className="gift-section">
+        <section className="gift-section" id="gifts">
 
             <div className="gift-content">
                 <h2>Lista de Presentes</h2>
