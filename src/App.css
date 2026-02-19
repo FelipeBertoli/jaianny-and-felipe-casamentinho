@@ -34,6 +34,7 @@ html, body {
 .middle-section,
   .last-section {
       height: 50px;
+      background-attachment: scroll; 
   }
 
   .last-section {

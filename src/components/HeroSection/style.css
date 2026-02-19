@@ -1,6 +1,5 @@
 .hero-section {
     background-image: url("../../assets/background-cinema.jpg"); 
-    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     min-height: 60vh;
@@ -42,6 +41,9 @@ padding-top: 60px;
 @media screen and (max-width: 768px) {
     .hero-section {
         padding-bottom: 2rem;
+        background-size:cover;
+
+
     }
 
     .hero-section h1 {
