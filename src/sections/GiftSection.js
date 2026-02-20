@@ -4,7 +4,6 @@ import amazonLogo from '../assets/amazon.png';
 import { useState } from 'react';
 import GiftCard from '../components/GiftCard/GiftCard';
 
-
 export default function GiftSection() {
     const [gifts, setGifts] = useState(giftsData.gifts);
     const markAsBought = (id) => {

@@ -1,15 +1,8 @@
-import React, { useMemo, useEffect, useRef } from "react";
+import { useMemo, useEffect, useRef } from "react";
 import Masonry from "masonry-layout";
 import imagesLoaded from "imagesloaded";
+import galleryData from "../../assets/gallery.json";
 import "./style.css";
-
-function importAll(r) {
-    return r.keys().map(r);
-}
-
-const images = importAll(
-    require.context("../../assets/galeria", true, /\.(png|jpe?g|webp|jpg)$/)
-);
 
 function shuffle(array) {
     const arr = [...array];
@@ -22,7 +15,11 @@ function shuffle(array) {
 
 export default function Gallery() {
     const gridRef = useRef(null);
-    const randomImages = useMemo(() => shuffle(images), []);
+
+    const randomImages = useMemo(
+        () => shuffle(galleryData.gallery.map(item => item.link)),
+        []
+    );
 
     useEffect(() => {
         const grid = gridRef.current;
@@ -47,7 +44,7 @@ export default function Gallery() {
             <div className="grid" ref={gridRef}>
                 {randomImages.map((src, i) => (
                     <div className="grid-item" key={i}>
-                        <img src={src} alt="" />
+                        <img src={src} alt={`Foto ${i}`} loading="lazy" />
                     </div>
                 ))}
             </div>
