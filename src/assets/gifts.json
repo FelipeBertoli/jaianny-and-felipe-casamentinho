@@ -2,10 +2,123 @@
     "gifts": [
         {
             "id": 1,
-            "name": "Jogo de Panelas",
-            "image": "/images/panelas.jpg",
-            "link": "https://...",
-            "status": "disponivel"
+            "name": "Mochila para a noiva levar so o necessário na lua de mel",
+            "image": "",
+            "value": "R$ 67,24"
+        },
+        {
+            "id": 2,
+            "name": "Ajuda para os noivos pagarem o aluguel",
+            "image": "",
+            "value": "R$ 927,34"
+        },
+        {
+            "id": 3,
+            "name": "Curso de culinária para a noiva",
+            "image": "",
+            "value": "R$ 199,03"
+        },
+        {
+            "id": 4,
+            "name": "1 ano de Netflix",
+            "image": "",
+            "value": "R$ 250,80"
+        },
+        {
+            "id": 5,
+            "name": "Ajudinha na lua de mel",
+            "image": "",
+            "value": "R$ 451,27"
+        },
+        {
+            "id": 6,
+            "name": "Prioridade na fila do buffet",
+            "image": "",
+            "value": "R$ 476,17"
+        },
+        {
+            "id": 7,
+            "name": "Pegar o buquê da noiva",
+            "image": "",
+            "value": "R$ 112,40"
+        },
+        {
+            "id": 8,
+            "name": "Feira no mercado porque o noivo come demais",
+            "image": "",
+            "value": "R$ 392,88"
+        },
+        {
+            "id": 9,
+            "name": "Controle extra para não ter briga",
+            "image": "",
+            "value": "R$ 29,51"
+        },
+        {
+            "id": 10,
+            "name": "Só pra não dizer que não dei nada",
+            "image": "",
+            "value": "R$ 40,00"
+        },
+        {
+            "id": 11,
+            "name": "Ajuda para bastecer o carro do noivo",
+            "image": "",
+            "value": "R$ 75,00"
+        },
+        {
+            "id": 12,
+            "name": "Ajuda para pagar o dia da noiva",
+            "image": "",
+            "value": "R$ 999,90"
+        },
+        {
+            "id": 13,
+            "name": "Ajuda para o transplante capilar do noivo",
+            "image": "",
+            "value": "R$ 1567,92"
+        },
+        {
+            "id": 14,
+            "name": "Passe livre para comer docinhos",
+            "image": "",
+            "value": "R$ 53,77"
+        },
+        {
+            "id": 15,
+            "name": "Saco de cimento pada ajudar na reforme do apartamento",
+            "image": "",
+            "value": "R$ 46,54"
+        },
+        {
+            "id": 16,
+            "name": "Ingresso para noivos assistirem Vingadores, com tudo incluso",
+            "image": "",
+            "value": "R$ 214,88"
+        },
+        {
+            "id": 17,
+            "name": "Mensalidade da academia pro noivo perder a barriga depois do buffet",
+            "image": "",
+            "value": "R$ 98,90"
+        },
+        {
+            "id": 18,
+            "name": "Ingresso para os noivos irem no proximo show de rock",
+            "image": "",
+            "value": "R$ 541,32"
+        },
+        {
+            "id": 19,
+            "name": "Ajuda para mobiliar a casa",
+            "image": "",
+            "value": "R$ "
+        },
+        {
+            "id": 29,
+            "name": "Ajuda para os noivos quitarem o casamento",
+            "image": "",
+            "value": "R$ "
         }
-    ]
+        ]
 }

@@ -22,8 +22,8 @@ export default function GiftSection() {
 
             <div className="gift-content">
                 <h2>Lista de Presentes</h2>
-                <text>Sua presença já é um presente para nós.
-                    Mas, caso queira nos ajudar a começar essa nova etapa, reunimos algumas ideias com muito carinho.</text>
+                <span>Sua presença já é um presente para nós.
+                    Mas, caso queira nos ajudar a começar essa nova etapa, reunimos algumas ideias com muito carinho.</span>
                 <a className="amazon-button" href="https://www.amazon.com.br/hz/wishlist/ls/BG0JHX983ERU?ref_=wl_share" target="_blank" rel="noopener noreferrer">
                     <img src={amazonLogo} alt="Amazon Logo" className="amazon-logo" />
                     <span className="amazon-text">Acessar Lista da Amazon</span>
