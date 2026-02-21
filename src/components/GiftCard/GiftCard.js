@@ -8,7 +8,7 @@ function GiftCard({ gift, onSelect }) {
         <h3>{gift.name}</h3>
         <span>{gift.value}</span>
 
-        <button onClick={() => onSelect(gift)}>
+      <button className="card-button" onClick={() => onSelect(gift)}>
           Presentear
         </button>
       </div>

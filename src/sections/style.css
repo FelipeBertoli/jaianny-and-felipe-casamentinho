@@ -92,7 +92,7 @@ align-items: center;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: max-content;
   gap: 1rem;
-  margin: 0 22rem;
+  margin: 0 10%;
   margin-top: 2rem;
 }
 .amazon-button {

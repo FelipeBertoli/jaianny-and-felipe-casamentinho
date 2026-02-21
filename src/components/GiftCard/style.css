@@ -38,21 +38,6 @@
     font-size: 1.2rem;
 }
 
-.card button {
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    padding: .8rem 1.8em;
-    border-radius: 1.5rem;
-    cursor: pointer;
-    font-family: Caviar Dreams;
-    font-size: .8rem;
-    text-transform: uppercase;
-    font-weight: 900;
-    margin-top: .3rem;
-}
-
-
 @media screen and (max-width: 768px) {
     .card {
         border-radius: .6rem;
@@ -85,9 +70,5 @@
         font-size: 1.1rem;
     }
 
-    .card button {
-        padding: .6rem 1.4em;
-        font-size: .7rem;
 
-    }
 }
