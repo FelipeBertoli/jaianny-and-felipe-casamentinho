@@ -30,7 +30,7 @@ export default function GiftSection() {
                     <span className="amazon-text">Acessar Lista da Amazon</span>
                 </a>
 
-                <div className="gift-list">
+                {/* <div className="gift-list">
                     {giftsData.gifts.map(gift => (
                         <GiftCard
                             key={gift.id}
@@ -38,7 +38,7 @@ export default function GiftSection() {
                             onSelect={setSelectedGift}
                         />
                     ))}
-                </div>
+                </div> */}
             </div>
 
             {selectedGift && (
